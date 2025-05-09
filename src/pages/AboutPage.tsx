@@ -51,7 +51,7 @@ const AboutPage: React.FC = () => {
           <div className="md:w-1/3">
             <div className="rounded-lg overflow-hidden shadow-md">
               <img 
-                src="./images/official photo1.jpg" 
+                src="./images/mypic.jpg" 
                 alt="Professional portrait" 
                 className="w-full h-auto"
               />

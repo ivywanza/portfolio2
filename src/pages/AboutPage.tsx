@@ -4,8 +4,8 @@ const AboutPage: React.FC = () => {
   const skills = [
     { name: 'JavaScript/TypeScript', level: 90 },
     { name: 'React/Vue.js', level: 85 },
-    { name: 'Node.js', level: 80 },
-    { name: 'PostgreSQL/MongoDB', level: 75 },
+    { name: 'FastAPI', level: 80 },
+    { name: 'PostgreSQL', level: 75 },
     { name: 'System Design & Architecture', level: 70 },
     { name: 'AI Integration (Python/Flask)', level: 70 },
     { name: 'Docker/Kubernetes', level: 65 },
@@ -51,7 +51,7 @@ const AboutPage: React.FC = () => {
           <div className="md:w-1/3">
             <div className="rounded-lg overflow-hidden shadow-md">
               <img 
-                src="https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                src="./images/official photo1.jpg" 
                 alt="Professional portrait" 
                 className="w-full h-auto"
               />
